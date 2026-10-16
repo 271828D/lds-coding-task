@@ -15,3 +15,6 @@ wheels/
 notebooks/T3_Modelo_For copy.ipynb
 pyproject copy.toml
 uv.lock
+
+.mypy_cache
+.ruff_cache
