@@ -120,7 +120,7 @@ Sign is consistent across all 4 horizons for every center (no flips).
 ## Limitaciones
 
 - ~19 effective test days per center (Tarea 3) → wide CI on all metrics
-- Nuevo modelo no se adapta a la distribución; con >500 días, entrenar una GBT probablemente tendría mejor performance 
+- Nuevo modelo no se adapta a la distribución; con >500 días, entrenar una LightGBM probablemente tendría mejor performance 
 - El indicador de desviación del plan aplica un criterio estricto de «el mismo día» (una variación de ±1 día se considera una desviación del plan)
 - El PI conformal utiliza un único margen global (no es adaptativo por predicción).
 - El modelo de referencia se evalúa en la ventana completa; el nuevo modelo, solo en la ventana de prueba (no es una comparación estrictamente equivalente).
