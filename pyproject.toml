@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "matplotlib>=3.11.2",
     "numpy>=2.5.4",
+    "pandas-stubs>=3.0.5.260914",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
 ]
@@ -61,3 +62,5 @@ quote-style = "double"
 python_version = "3.12"
 strict = true
 disallow_any_generics = true
+namespace_packages = true
+ignore_missing_imports = true   
