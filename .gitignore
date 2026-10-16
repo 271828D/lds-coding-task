@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.pytest_cache
+
+/data
+/notebooks/Exp_tablas.ipynb
+notebooks/T3_Modelo_For copy.ipynb
+pyproject copy.toml
+uv.lock
